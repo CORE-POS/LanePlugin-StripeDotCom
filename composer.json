@@ -1,6 +1,6 @@
 {
-    "name": "corepos/lane-plugin-bitcoin",
-    "description": "Lane plugin for bitcoinpay.com",
+    "name": "corepos/lane-plugin-stripe-dot-com",
+    "description": "Lane plugin for processing bitcoin via stripe.com",
     "type": "corepos-lane-plugin",
     "require": {
         "corepos/composer-installer": ">=1.0.1"
@@ -12,5 +12,5 @@
     "autoload": {
         "exclude-from-classmap": ["/*.php", "/gui/", "/noauto/"]
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
 }
